@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 gem 'rails', '3.2.6'
 gem 'pg', '0.12.2'
 
@@ -8,10 +9,18 @@ group :development, :test do
   gem 'rspec-rails', '2.11.0'
 =======
 gem 'rails', '3.2.7'
+=======
+gem 'rails', '3.2.6'
+>>>>>>> static-pages
 gem 'pg', '0.12.2'
+gem 'sqlite3'
 
 group :development, :test do
+<<<<<<< HEAD
   gem 'rspec-rails', '2.10.0'
+>>>>>>> static-pages
+=======
+  gem 'rspec-rails', '2.11.0'
 >>>>>>> static-pages
 end
 
@@ -23,7 +32,7 @@ group :assets do
   gem 'uglifier', '1.2.3'
 end
 
-gem 'jquery-rails', '2.0.0'
+gem 'jquery-rails'
 
 group :test do
   gem 'capybara', '1.1.2'
