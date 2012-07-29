@@ -1,39 +1,24 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 gem 'rails', '3.2.6'
-gem 'pg', '0.12.2'
-
-group :development, :test do
-  gem 'rspec-rails', '2.11.0'
-=======
-gem 'rails', '3.2.7'
-=======
-gem 'rails', '3.2.6'
->>>>>>> static-pages
-gem 'pg', '0.12.2'
+gem 'pg'
 gem 'sqlite3'
+gem "bootstrap-sass", "~> 2.0.4.0"
 
 group :development, :test do
-<<<<<<< HEAD
-  gem 'rspec-rails', '2.10.0'
->>>>>>> static-pages
-=======
   gem 'rspec-rails', '2.11.0'
->>>>>>> static-pages
 end
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '3.2.4'
-  gem 'coffee-rails', '3.2.2'
-  gem 'uglifier', '1.2.3'
+  gem 'sass-rails'
+  gem 'coffee-rails'
+  gem 'uglifier'
 end
 
 gem 'jquery-rails'
 
 group :test do
-  gem 'capybara', '1.1.2'
+  gem 'capybara'
 end
